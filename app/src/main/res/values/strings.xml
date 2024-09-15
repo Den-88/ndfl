@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">НДФЛ</string>
+    <string name="Maintext1">Общая сумма:</string>
+    <string name="Maintext2">Сумма за вычетом НДФЛ:</string>
+    <string name="Maintext3">Налог:</string>
+    <string name="Maintext4">Выбор ставки налога:</string>
+    <string name="snip1">13% - стандартная ставка</string>
+    <string name="snip2">15% - дивиденды / доходы > 5 млн</string>
+    <string name="snip3">30% - нерезиденты / ценные бумаги</string>
+    <string name="snip4">35% - призы / выигрыши</string>
+    <string name="snip5">другое значение</string>
+    <string name="snip6">% - введенное значение</string>
+    <string name="Hint">0.00</string>
+    <string name="MenuInstr">Инструкция</string>
+    <string name="MenuSetting">Настройки</string>
+    <string name="SetTheme">Выберите тему для приложения</string>
+    <string name="MenuAbout">О программе</string>
+    <string name="AboutText1">Версия:</string>
+    <string name="AboutText2">\nРазработчик: Шакуров Денис</string>
+    <string name="AboutButton">Закрыть</string>
+    <string name="Price">Стоимость -</string>
+    <string name="ManualText">Данное приложение является простым калькулятором НДФЛ. Оно позволяет рассчитывать общую сумму, сумму к выплате физическому лицу и сумму налога к уплате. \n\nДля расчета:
+\n1) Выберите нужную ставку налога.
+\n2) Введите любое из значений: общая сумма, сумма к выплате физическому лицу или сумма налога к уплате.
+\n3) Значения двух остальных показателей будут рассчитаны автоматически.
+\n\nНалог на доходы физических лиц (НДФЛ) — основной вид прямых налогов. Исчисляется в процентах от совокупного дохода физических лиц за вычетом документально подтверждённых расходов, в соответствии с действующим законодательством.</string>
+    <string name="SetBasePercent">Установлена ставка налога по умолчанию - 13%</string>
+    <string name="ListTitle">Тема оформления</string>
+    <string name="SaveExit">Сохранять расчет</string>
+    <string name="SaveExit2">Восстанавливать последний расчет при повторном запуске приложения</string>
+    <string name="BuyText">Удалить рекламу</string>
+    <string name="BuyText2">После оплаты реклама больше не будет отображаться</string>
+    <string name="ProcentOK">OK</string>
+    <string name="Customprocent">Введите налоговую ставку:</string>
+    <string name="Error">Ошибка!</string>
+    <string name="Errornull">Не введено значение! \nУстановлено значение налоговой ставки по умолчанию - 13%.</string>
+    <string name="Error0">Налоговая ставка не может равняться 0%! \nУстановлено минимальное допустимое значение процентной ставки - 0.01%.</string>
+
+    <string-array name="entries">
+        <item>Как в системе</item>
+        <item>Светлая</item>
+        <item>Темная</item>
+    </string-array>
+
+    <string-array name="entry_values">
+        <item>auto</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+
+    <string-array name="spinner_values">
+        <item>@string/snip1</item>
+        <item>@string/snip2</item>
+        <item>@string/snip3</item>
+        <item>@string/snip4</item>
+        <item>@string/snip5</item>
+    </string-array>
+
+    <string name="pref_theme">theme</string>
+    <string name="pref_theme_default">light</string>
+    <string name="percent">%</string>
+</resources>
