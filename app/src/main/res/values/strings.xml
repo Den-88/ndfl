@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">НДФЛ</string>
     <string name="Maintext1">Общая сумма:</string>
-    <string name="Maintext2">Сумма за вычетом НДФЛ:</string>
-    <string name="Maintext3">Налог:</string>
+    <string name="Maintext2">Сумма без НДФЛ:</string>
+    <string name="Maintext3">НДФЛ:</string>
     <string name="Maintext4">Выбор ставки налога:</string>
     <string name="snip1">13% - стандартная ставка</string>
     <string name="snip2">15% - дивиденды / доходы > 5 млн</string>
